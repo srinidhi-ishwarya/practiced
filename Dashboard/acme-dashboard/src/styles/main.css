@@ -1,0 +1,25 @@
+.main{
+    background-color: white;
+    /* margin: 20px 20px 20px 0; */
+    width: 79%;
+    border-radius: 10p
+
+}
+ @media (max-width:1220px)
+{
+   .main{
+   
+    /* margin-top: 27px; */
+    width: 100%;
+   }
+  
+}  
+.backdrop{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+    z-index: 90;
+    width: 100vw;
+    backdrop-filter: blur(2px);
+}
