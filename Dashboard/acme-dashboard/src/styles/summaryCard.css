@@ -1,0 +1,68 @@
+.card1{
+    border: 2px solid  #f9f6ff;
+    height: 85px;
+    width: 300px;
+    border-radius: 10px;
+}
+/* .card2{
+    border: 2px solid  #f9f6ff;
+    height: 85px;
+    width: 300px;
+     border-radius: 10px;
+}
+.card3{
+    border: 2px solid  #f9f6ff;
+    height: 85px;
+    width: 300px;
+    border-radius: 10px;
+} */
+.card1 img,.card1 img {
+    height: 20px;
+    position: relative;
+    left: 250px;
+    bottom: 26px; 
+}
+.card1 p{
+    padding: 9px;  
+}
+/* .card2 p{
+    padding: 9px;
+}
+.card3 p{
+    padding: 9px;
+} */
+.card1 b{
+   position: relative;
+   left: 8px;
+   
+}
+/* .card2 b{
+   position: relative;
+  left: 7px;
+}
+.card3 b{
+   position: relative;
+   right: 20px;
+} */
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+@media(max-width:615px)
+{
+    .card1 {
+    border: 2px solid #f1f1f1;
+    /* height: 85px; */
+    /* width: 300px; */
+    /* padding: 26px 54px 21px 49px; */
+    border-radius: 10px;
+    width: 90.3333%;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+}
+
+

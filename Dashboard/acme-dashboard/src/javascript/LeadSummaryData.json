@@ -1,0 +1,11 @@
+ {
+  "title": "Lead Insight",
+  "companyName": "Acme",
+  "daysInactive": 7,
+  "scoreDrop": 20,
+  "newLeads": 7,
+  "lastLead": 2,
+  "closeLead": "$14,400",
+  "headingAllLead": "All Leads",
+  "textAllLead": "Find all leads in a single place"
+}

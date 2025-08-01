@@ -1,0 +1,164 @@
+.insight{
+    border: 1px solid #f9f6ff ;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #f9f6ff;
+}
+.fst-line{
+    display: flex;
+    justify-content: space-between;
+}
+.fst-line i2{
+    color: #6f54a7;
+
+}
+.fst-line i2 span{
+position: relative;
+top: 4px;
+width:20px;
+}
+.fst-line p span{
+   position: relative;
+   top: 2px;
+   left: 1px;
+   color: #492890;
+
+}
+.para{
+    position: relative;
+    top: 8px;
+}
+.fst-line p{
+    position: relative;
+    bottom: 4px;
+}
+.cards{
+     display: flex;
+    justify-content: space-between; 
+    /* gap: 4px; */
+    /* padding: 10px; */
+    /* justify-content: space-around; */
+}
+.right{
+    padding: 0 0 10px 0;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 28px;
+}
+.card1{
+  
+border: 2px solid #f1f1f1;
+    /* height: 85px; */
+    /* width: 300px; */
+    padding: 15px 0 15px 0;
+    border-radius: 10px;
+    width: 33.3333%;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+} 
+.card2{
+    border: 2px solid  #f9f6ff;
+    height: 85px;
+    width: 300px;
+     border-radius: 10px;
+}
+.card3{
+    border: 2px solid  #f9f6ff;
+    height: 85px;
+    width: 300px;
+    border-radius: 10px;
+}
+.card1 span img {
+    /* border: 3px solid black; */
+    /* height: 20px; */
+    /* position: relative; */
+    /* left: 220px; */
+     width: 50px; 
+     padding-right: 10px; 
+    /* bottom: 26px;  */
+    /* border: 1px solid white; */
+}
+.card1 p{
+     
+     /* border: 3px solid black; */
+
+    /* padding: 9px;   */
+}
+
+.card2 p{
+    padding: 9px;
+}
+.card3 p{
+    padding: 9px;
+}
+.card1 b{
+    /* border: 3px solid black; */
+   position: relative;
+  
+   
+}
+.card2 b{
+   position: relative;
+  
+}
+.card3 b{
+   position: relative;
+   
+}
+.lead{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px; 
+}
+.lead2{
+    position: relative;
+    left: 8px;
+}
+.lead3 button{
+    position: relative;
+    right: 10px;
+    border-radius: 8px;
+    background-color: white;
+    height: 30px;
+    width: 100px;
+    border: 1px solid black;
+}
+.lead3 span{
+    position: relative;
+    right: 3px;
+    top: 2px;
+}
+.lead2 p{
+    color: #90899e;
+    font-size: small;
+   
+}
+
+@media(max-width:615px)
+{
+    .cards{
+        display: flex;
+        flex-direction: column;
+        /* width: 87%; */
+    }
+}
+@media(max-width:615px)
+{
+    .card1 {
+    border: 2px solid #f1f1f1;
+    /* height: 85px; */
+    /* width: 300px; */
+    /* padding: 26px 54px 21px 49px; */
+    border-radius: 10px;
+    width: 90.3333%;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+}

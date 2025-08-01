@@ -1,0 +1,48 @@
+.table-container {
+  padding: 20px;
+  overflow-x: auto;
+  
+}
+
+.lead-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+.lead-table th,
+.lead-table td {
+  padding: 12px 16px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.lead-table th {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.status-badge {
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 13px;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.status-badge.completed {
+  background-color: #d4f4dd;
+  color: #1d8f3f;
+}
+
+.status-badge.cancelled {
+  background-color: #fbd6d6;
+  color: #d60000;
+}
+
+
+.lead-id {
+  color: #1476ff;
+  cursor: pointer;
+}

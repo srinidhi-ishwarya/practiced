@@ -1,0 +1,38 @@
+.titlebar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 80px;
+    
+
+}
+.logo img{
+    width: 140px;
+}
+
+.search_bar{
+    display: flex;
+    border: 1px solid #e0dbdb;
+    padding: 15px ;
+    gap: 250px;
+    border-radius: 5px;
+    color: #777777;
+    align-items: center;
+}
+.title_list{
+    display: flex;
+    color: #777777;
+}
+.title_list ul{
+     list-style-type: none;
+     display: flex;
+     gap: 20px;
+}
+.icon{
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+}
+@media (max-width:991px)
+{
+    
+}
