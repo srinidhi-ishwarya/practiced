@@ -1,0 +1,133 @@
+.layout-container {
+  display: flex;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+.sidebar {
+  width: 20%;
+  background-color: #fff;
+  border: 1px solid #e0e6ed;
+  padding: 16px;
+  border-radius: 8px;
+  margin-bottom: 89%;
+}
+
+.sidebar-title {
+  font-size: 16px;
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+
+.sidebar-list {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar-item {
+  padding: 8px 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  color: #333;
+}
+
+.icon-placeholder {
+  font-size: 16px;
+}
+
+.content-area {
+  width: 80%;
+  padding-left: 20px;
+}
+
+.timeline-button {
+  padding: 6px 16px;
+  border: 1px solid #d1dbe9;
+  border-radius: 20px;
+  background-color: white;
+  cursor: pointer;
+  margin-bottom: 16px;
+  font-size: 14px;
+}
+
+.info-box {
+  border: 1px solid #e0e6ed;
+  border-radius: 8px;
+  padding: 16px;
+  background-color: #fff;
+  margin-bottom: 20px;
+
+}
+
+.status-completed {
+  background-color: #d1f4d2;
+  color: green;
+  padding: 2px 8px;
+  border-radius: 6px;
+  font-size: 12px;
+}
+
+.lead-details-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  margin-top: 12px;
+}
+
+.lead-details-grid p {
+  font-size: 14px;
+  margin: 4px 0;
+}
+.content-area {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.timeline-button {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border: 1px solid #dbe4f1;
+  padding: 8px 14px;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.info-box {
+  border: 1px solid #dbe4f1;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+
+.lead-details-grid {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.lead-details-grid > div {
+  flex: 1;
+  min-width: 300px;
+}
+
+.address-grid {
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.section {
+  margin-top: 20px;
+}
+
+.status-completed {
+  color: green;
+  font-weight: bold;
+}
+

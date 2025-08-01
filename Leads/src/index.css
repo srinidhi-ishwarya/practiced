@@ -1,0 +1,285 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #ffffff;
+}
+
+:root {
+  --txt-blue: #42a3ff;
+  --secondary:#eff4fd;
+  --secondary-txt:#b9c6ce;
+}
+.side_bar{
+  width: 6%;
+  background-color: var(--secondary);
+  
+}
+.main_bar{
+  width: 92%;
+  /* height: 100vh; */
+}
+.d-flex{
+  display: flex;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 20px;
+  border-bottom: 1px solid #ddd;
+  background-color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.search-bar input {
+  width: 300px;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  background-color: #f5f5f5;
+  color:var(--secondary-txt);
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.crm-dropdown {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+
+  cursor: pointer;
+}
+
+.icon {
+  position: relative;
+  cursor: pointer;
+}
+
+.notification-dot {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 8px;
+  width: 8px;
+  background-color: rgb(151, 151, 151);
+  border-radius: 50%;
+}
+
+.profile-circle {
+  height: 32px;
+  width: 32px;
+  background-color: #007bff;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-weight: bold;
+  cursor: pointer;
+}
+.lead-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #e0e6ed;
+  border-radius: 8px;
+  padding: 16px;
+  background-color: #fff;
+  margin: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.lead-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.profile-pic {
+  width: 64px;
+  height: 64px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.lead-text h3 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.verified {
+  color: #0a84ff;
+  font-size: 14px;
+  margin-left: 4px;
+}
+
+.lead-text p {
+  margin: 2px 0 0;
+  font-size: 14px;
+  color: #444;
+}
+
+.lead-actions {
+  text-align: right;
+}
+
+.last-contacted {
+  font-size: 13px;
+  color: #555;
+  margin-bottom: 8px;
+}
+
+.button-group {
+  display: flex;
+  gap: 8px;
+}
+
+.action-button {
+  padding: 6px 14px;
+  font-size: 14px;
+  border-radius: 6px;
+  border: 1px solid transparent;
+  cursor: pointer;
+ 
+}
+
+.action-button.primary {
+  background-color: #007bff;
+  color: white;
+  border: none;
+}
+
+.action-button.outline {
+  background-color: white;
+  color: #007bff;
+  border: 1px solid #cfd8e3;
+}
+
+.action-button.outline:hover {
+  background-color: #f0f4f9;
+}
+/* Card.css */
+.card {
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  padding: 12px;
+  margin: 12px 0;
+  background: #fff;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  font-size: 15px;
+}
+
+.card-btn {
+  background: #f0f4ff;
+  border: 1px solid #ccc;
+  padding: 2px 8px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.card-body {
+  font-size: 14px;
+  color: #555;
+}
+
+.note-input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+/* SocialCard specific */
+.social-body {
+  display: flex;
+  gap: 20px;
+}
+
+.social-left {
+  width: 40%;
+  background: #f4f7ff;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.social-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.social-icon {
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  text-align: center;
+  font-weight: bold;
+  background: #ddd;
+  border: none;
+}
+
+.social-icon.x {
+  background: black;
+  color: white;
+}
+
+.social-icon.facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.social-right {
+  width: 60%;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 13px;
+  color: #777;
+}
+
+.user-icon {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+.lead-details{
+      padding: 1%;
+    color: var(--txt-blue);
+    font-size: larger;
+    padding-left: 2%;
+
+}
+.info-box p{
+  padding: 1%;
+  display: flex;
+  gap: 2%;
+    align-items: flex-start;
+  margin: 5px 0;
+}
+.info-box strong{
+   color: var(--txt-blue);
+   font-size: 14px;
+    width: 140px; 
+  display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
